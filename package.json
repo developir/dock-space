@@ -1,0 +1,23 @@
+{
+  "name": "dock-space",
+  "version": "1.0.0",
+  "description": "dock space for macos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najafi-saeed/dock-space.git"
+  },
+  "keywords": [
+    "macos",
+    "dock"
+  ],
+  "author": "Saeed Najafi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/najafi-saeed/dock-space/issues"
+  },
+  "homepage": "https://github.com/najafi-saeed/dock-space#readme"
+}
