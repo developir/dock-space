@@ -4,7 +4,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     name: 'Dock Space',
-    icon: "icons/app.icns",
+    icon: "assets/icons/app.icns",
     asar: true,
   },
   rebuildConfig: {},

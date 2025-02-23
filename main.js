@@ -5,7 +5,7 @@ function createWindow() {
   let win = new BrowserWindow({
     width: 800,
     height: 600,
-    icon: path.join(__dirname, 'icons/app.icns'),
+    icon: path.join(__dirname, 'assets/icons/app.icns'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true
@@ -19,7 +19,7 @@ app.whenReady().then(() => {
 
   // set the Dock icon for macOS
   if (process.platform === 'darwin') {
-    app.dock.setIcon(path.join(__dirname, 'icons/app.icns'));
+    app.dock.setIcon(path.join(__dirname, 'assets/icons/app.icns'));
   }
 
   app.on('activate', () => {
