@@ -1,0 +1,82 @@
+:root{
+  --container-width: 600px;
+  --section-width: 420px;
+  --primary-color: #238f6a;
+  --background-color: rgb(35 143 106 / 15%);
+  --text-color: #888;
+  --title-font-family: sans-serif, monospace;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  border: none !important;
+  font-family: system-ui, sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: var(--container-width);
+}
+.hero-image{
+  max-width: 100%;
+}
+.hero-section{
+  background: var(--background-color);
+  max-width: var(--section-width);
+  box-sizing: border-box;
+  padding: 5px 10px 15px;
+  border-radius: 10px;
+  margin: 10px auto 3px;
+  text-align: center;
+}
+.hero-section .title{
+  font-family: var(--title-font-family);
+  font-size: 35px;
+  margin: 10px 0px;
+  color: var(--primary-color);
+  letter-spacing: -1px;
+}
+.hero-section .description{
+  color: var(--text-color);
+  margin: 0;
+}
+.hero-section .link{
+  text-decoration: none;
+  color: #f3a700;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 300ms;
+}
+.hero-section .link:hover{
+  color: #f6c303;
+  letter-spacing: 1.3px;
+}
+.how-to-use{
+  background: var(--background-color);
+  margin: 0 auto;
+  padding: 5px 15px 15px;
+  max-width: var(--section-width);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.how-to-use .title{
+  font-family: var(--title-font-family);
+  font-size: 24px;
+  margin: 10px 0px;
+  color: var(--primary-color);
+}
+.how-to-use .description {
+  color: var(--text-color);
+  margin: 0 0 10px;
+  line-height: 22px;
+}
+.how-to-use .description b{
+  color: #666;
+  font-weight: 500;
+}
+.how-to-use .image{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
